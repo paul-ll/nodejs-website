@@ -8,6 +8,12 @@
  - redis【服务端】
  - Vue.js【后台前端】
  - UNIAPP【前台网站】
+
+> 临时演示(指不定哪天就关了）
+> 
+> 前台：http://test.maliapi.cn/
+>
+> 后台(账号密码暂不提供）：http://api.aogonew.maliapi.cn/login
  
 ## 为什么用Node.js
  - 门槛低(至少我觉得比PHP简单不少）
@@ -26,25 +32,25 @@
 
 ## 使用和学习
  - 服务端部分【根目录】
-    > 1、先登录MySQL创建 qinqiyun 数据库；
-    > 2、修改 config/config.js 配置信息，在里面填写你的数据库连接信息；
-    > 3、如果需要微信扫码登录后台还需要填写 微信appid/appSecret；
-    > 4、npm install
-    > 5、npm run dev（URL：http://localhost:8080/）
-    > 6、服务器部署用PM2（建议用宝塔，傻瓜式操作）
+    - 先登录MySQL创建 qinqiyun 数据库；
+    - 修改 config/config.js 配置信息，在里面填写你的数据库连接信息；
+    - 如果需要微信扫码登录后台还需要填写 微信appid/appSecret；
+    - npm install
+    - npm run dev（URL：http://localhost:8080/）
+    - 服务器部署用PM2（建议用宝塔，傻瓜式操作）
 
  - 后台前端部分【admin目录】
-    > 1、修改 admin/src/libs/util.js 域名连接信息和标题信息；
-    > 2、修改 admin/src/libs/upload-token.js 七牛存储密钥信息；
-    > 3、npm install 
-    > 4、npm run dev（URL：http://localhost:8083/）
-    > 5、npm run build
+    - 修改 admin/src/libs/util.js 域名连接信息和标题信息；
+    - 修改 admin/src/libs/upload-token.js 七牛存储密钥信息；
+    - npm install 
+    - npm run dev（URL：http://localhost:8083/）
+    - npm run build
 
  - 前台官网部分【website目录】
-    > 1、下载 [HBuilderX][1] IDE；
-    > 2、导入官网部分目录；
-    > 3、修改里面的request URL地址；
-    > 4、运行或者发布到H5网站手机版；
+    - 下载 [HBuilderX][1] IDE；
+    - 导入官网部分目录；
+    - 修改里面的request URL地址；
+    - 运行或者发布到H5网站手机版；
 
 ## 项目参考的资料
 
