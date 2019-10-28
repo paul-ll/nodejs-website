@@ -23,7 +23,7 @@ class wechatApi {
                         }
                         const p = JSON.parse(body);
                         client.set('WeChatAccessToken', p.access_token);//获取成功写入redis
-                        client.expire('WeChatAccessToken', 7000);//给token一个有效期，到了这个时间会自动删除
+                        client.expire('WeChatAccessToken', 6000);//给token一个有效期，到了这个时间会自动删除
                         resolve(p.access_token);
                     })
                 }
